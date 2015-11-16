@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		455071E31BFA197300F794CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 455071E21BFA197300F794CF /* main.m */; };
+		455071E61BFA197300F794CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 455071E51BFA197300F794CF /* AppDelegate.m */; };
+		455071E91BFA197300F794CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 455071E81BFA197300F794CF /* ViewController.m */; };
+		455071EC1BFA197300F794CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455071EA1BFA197300F794CF /* Main.storyboard */; };
+		455071EE1BFA197300F794CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 455071ED1BFA197300F794CF /* Assets.xcassets */; };
+		455071F11BFA197300F794CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455071EF1BFA197300F794CF /* LaunchScreen.storyboard */; };
+		455072001BFA19D400F794CF /* BIActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 455071F91BFA19D400F794CF /* BIActivityViewController.m */; };
+		455072011BFA19D400F794CF /* BIAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 455071FB1BFA19D400F794CF /* BIAlertViewController.m */; };
+		455072021BFA19D400F794CF /* BIDimmerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 455071FD1BFA19D400F794CF /* BIDimmerViewController.m */; };
+		455072031BFA19D400F794CF /* UIButton+setStateBackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 455071FF1BFA19D400F794CF /* UIButton+setStateBackgroundColor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		455071DE1BFA197300F794CF /* BIDimmerViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BIDimmerViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		455071E21BFA197300F794CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		455071E41BFA197300F794CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		455071E51BFA197300F794CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		455071E71BFA197300F794CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		455071E81BFA197300F794CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		455071EB1BFA197300F794CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		455071ED1BFA197300F794CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		455071F01BFA197300F794CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		455071F21BFA197400F794CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		455071F81BFA19D400F794CF /* BIActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIActivityViewController.h; sourceTree = "<group>"; };
+		455071F91BFA19D400F794CF /* BIActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIActivityViewController.m; sourceTree = "<group>"; };
+		455071FA1BFA19D400F794CF /* BIAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIAlertViewController.h; sourceTree = "<group>"; };
+		455071FB1BFA19D400F794CF /* BIAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIAlertViewController.m; sourceTree = "<group>"; };
+		455071FC1BFA19D400F794CF /* BIDimmerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDimmerViewController.h; sourceTree = "<group>"; };
+		455071FD1BFA19D400F794CF /* BIDimmerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDimmerViewController.m; sourceTree = "<group>"; };
+		455071FE1BFA19D400F794CF /* UIButton+setStateBackgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+setStateBackgroundColor.h"; sourceTree = "<group>"; };
+		455071FF1BFA19D400F794CF /* UIButton+setStateBackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+setStateBackgroundColor.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		455071DB1BFA197300F794CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		455071D51BFA197300F794CF = {
+			isa = PBXGroup;
+			children = (
+				455071E01BFA197300F794CF /* BIDimmerViewController */,
+				455071DF1BFA197300F794CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		455071DF1BFA197300F794CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				455071DE1BFA197300F794CF /* BIDimmerViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		455071E01BFA197300F794CF /* BIDimmerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				455071E41BFA197300F794CF /* AppDelegate.h */,
+				455071E51BFA197300F794CF /* AppDelegate.m */,
+				455071E71BFA197300F794CF /* ViewController.h */,
+				455071E81BFA197300F794CF /* ViewController.m */,
+				455071F81BFA19D400F794CF /* BIActivityViewController.h */,
+				455071F91BFA19D400F794CF /* BIActivityViewController.m */,
+				455071FA1BFA19D400F794CF /* BIAlertViewController.h */,
+				455071FB1BFA19D400F794CF /* BIAlertViewController.m */,
+				455071FC1BFA19D400F794CF /* BIDimmerViewController.h */,
+				455071FD1BFA19D400F794CF /* BIDimmerViewController.m */,
+				455071FE1BFA19D400F794CF /* UIButton+setStateBackgroundColor.h */,
+				455071FF1BFA19D400F794CF /* UIButton+setStateBackgroundColor.m */,
+				455071EA1BFA197300F794CF /* Main.storyboard */,
+				455071ED1BFA197300F794CF /* Assets.xcassets */,
+				455071EF1BFA197300F794CF /* LaunchScreen.storyboard */,
+				455071F21BFA197400F794CF /* Info.plist */,
+				455071E11BFA197300F794CF /* Supporting Files */,
+			);
+			path = BIDimmerViewController;
+			sourceTree = "<group>";
+		};
+		455071E11BFA197300F794CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				455071E21BFA197300F794CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		455071DD1BFA197300F794CF /* BIDimmerViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 455071F51BFA197400F794CF /* Build configuration list for PBXNativeTarget "BIDimmerViewController" */;
+			buildPhases = (
+				455071DA1BFA197300F794CF /* Sources */,
+				455071DB1BFA197300F794CF /* Frameworks */,
+				455071DC1BFA197300F794CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BIDimmerViewController;
+			productName = BIDimmerViewController;
+			productReference = 455071DE1BFA197300F794CF /* BIDimmerViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		455071D61BFA197300F794CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ice Butterfly";
+				TargetAttributes = {
+					455071DD1BFA197300F794CF = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = VSXKPZWN4F;
+					};
+				};
+			};
+			buildConfigurationList = 455071D91BFA197300F794CF /* Build configuration list for PBXProject "BIDimmerViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 455071D51BFA197300F794CF;
+			productRefGroup = 455071DF1BFA197300F794CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				455071DD1BFA197300F794CF /* BIDimmerViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		455071DC1BFA197300F794CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455071F11BFA197300F794CF /* LaunchScreen.storyboard in Resources */,
+				455071EE1BFA197300F794CF /* Assets.xcassets in Resources */,
+				455071EC1BFA197300F794CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		455071DA1BFA197300F794CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455072031BFA19D400F794CF /* UIButton+setStateBackgroundColor.m in Sources */,
+				455072001BFA19D400F794CF /* BIActivityViewController.m in Sources */,
+				455071E91BFA197300F794CF /* ViewController.m in Sources */,
+				455071E61BFA197300F794CF /* AppDelegate.m in Sources */,
+				455072021BFA19D400F794CF /* BIDimmerViewController.m in Sources */,
+				455071E31BFA197300F794CF /* main.m in Sources */,
+				455072011BFA19D400F794CF /* BIAlertViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		455071EA1BFA197300F794CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				455071EB1BFA197300F794CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		455071EF1BFA197300F794CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				455071F01BFA197300F794CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		455071F31BFA197400F794CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		455071F41BFA197400F794CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		455071F61BFA197400F794CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BIDimmerViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bl.BIDimmerViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		455071F71BFA197400F794CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BIDimmerViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bl.BIDimmerViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		455071D91BFA197300F794CF /* Build configuration list for PBXProject "BIDimmerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455071F31BFA197400F794CF /* Debug */,
+				455071F41BFA197400F794CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		455071F51BFA197400F794CF /* Build configuration list for PBXNativeTarget "BIDimmerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455071F61BFA197400F794CF /* Debug */,
+				455071F71BFA197400F794CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 455071D61BFA197300F794CF /* Project object */;
+}
