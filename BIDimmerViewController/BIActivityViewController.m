@@ -190,7 +190,6 @@
     
     self.pageControlContainerView = [UIView new];
     self.pageControl = [[UIPageControl alloc] initWithFrame:CGRectMake(0, 0, 10, 10)];
-    self.pageControl.backgroundColor = [UIColor blackColor];
     [self.pageControlContainerView addSubview:self.pageControl];
     
         
@@ -222,6 +221,7 @@
     self.collectionView.backgroundColor = [UIColor whiteColor];
     [self.collectionView registerClass:[BIActivityCell class] forCellWithReuseIdentifier:@"BIActivityCell"];
     self.collectionView.pagingEnabled = YES;
+    self.collectionView.showsHorizontalScrollIndicator = NO;
     
     [self.view addSubview:self.containerView];
     [self.containerView addSubview:self.pageControlContainerView];
@@ -240,7 +240,7 @@
 - (void)viewDidLoad{
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.3f];
-    self.pageControlContainerView.backgroundColor = [UIColor blackColor];
+    self.pageControlContainerView.backgroundColor = [UIColor lightGrayColor];
     
     self.pageControl.currentPage   = 0;
     
